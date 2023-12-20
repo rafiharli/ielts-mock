@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+.Container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #c0d6f9;
+}
+
+.Container:before {
+  content: "";
+  height: 97%;
+  float: left;
+}
+
+.Header {
+  margin: 20px;
+  background-color: #ffffff;
+  border: solid;
+}
+.Content {
+  position: relative;
+  z-index: 1;
+}
+.Content:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.Wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.Wrapper > div {
+  height: 100%;
+}
+
+.LeftContent {
+  margin-left: 2%;
+  width: 45%;
+  overflow: auto;
+  padding-right: 2%;
+}
+
+.RightContent {
+  float: right;
+  width: 46%;
+  overflow: auto;
+  border-left: solid;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.font-head {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.white {
+  background-color: white;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #fff;
+  color: black;
+}
+
+ul li {
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.finish {
+  color: black;
+  float: right;
+  margin-top: 0px;
+  margin-right: 30px;
+  border-color: black;
+  background-color: white;
+  padding: 5px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.finish:hover {
+  background-color: black;
+  border-color: white;
+  color: white;
+}
+
+.no-style {
+  text-decoration: none;
+}
+
+.start {
+  color: black;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: solid;
+  border-radius: 20px;
+}
+
+.start:hover {
+  color: #c0d6f9;
+  background-color: black;
+}
+
+.input-name {
+  width: 15%;
+  padding: 5px;
+  text-align: center;
+}
+
+.text-box {
+  padding: 30px;
+}
+
+.listening {
+  margin: 3%;
+}
+
+input {
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+td {
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-bottom: 1%;
+}
+
+table {
+  width: 100%;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.result-item {
+  border: 2px solid #000;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  flex: 0 0 calc(20% - 20px);
+}
+
+.box-width {
+  width: 120px;
+  height: auto;
+}
+
+tr {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#the-count {
+  float: left;
+  padding: 0.1rem 0 0 0;
+  font-size: 0.875rem;
+}
+
+.count-time {
+  float: right;
+  margin-right: 35px;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.header {
+  margin: 20px;
+  background-color: #ffffff;
+  border: solid;
+  position: fixed;
+  top: 0; /* Ganti dengan warna latar belakang yang sesuai */
+  width: 95%; /* Agar header mengambil lebar penuh */
+  z-index: 100; /* Menentukan kedalaman tumpukan, pastikan lebih besar dari elemen-elemen di bawahnya */
+}
+
+.col-4 {
+  width: 20%;
+  margin: 1%;
+  padding: 1%;
+  float: left;
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+.wrapper-result {
+  width: 95%;
+  padding: 1%;
+  margin: 0 auto;
+}
+
+.hover-1{
+  color:deeppink;
+  background-color: white;
+  border:solid;
+  border-radius: 20px;
+  border-width: 1%;
+  border-color: black;
+}
+
+.hover-1:hover{
+  color:black;
+  background-color: deeppink;
+}
